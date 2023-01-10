@@ -7,7 +7,7 @@
     <div class="row">
         @foreach ($movies as $movie)
 
-            <div class="col-4">
+            <div class="col-4 my-col">
                 <a class="my-movie-link" href="{{ route('movie-detail', $movie->id) }}">
                     <h4>{{ $movie->title }}</h4>
 
